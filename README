@@ -17,7 +17,7 @@ To run the scraper:
 
 Copy code
 
-python imdb_scraper.py
+python movie_imdb_webscrape.py
 This will generate the IMDB_Movie_Ratings.xlsx file in the same folder containing the extracted data.
 
 Expanding the Scraper
