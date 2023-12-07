@@ -1,0 +1,30 @@
+IMDb Top Movies Scraper
+This is a simple web scraper to extract details of the current top 100 movies on IMDb and output the data to an Excel file.
+
+Overview
+imdb_scraper.py contains the Python web scraping script
+Used BeautifulSoup and Requests libraries for scraping the data
+Fetches 4 attributes for each movie:
+Rank
+Name
+Year of release
+IMDb rating
+Outputs scraped data to IMDB_Movie_Ratings.xlsx Excel file
+Usage
+The script has no external dependencies outside of the Python standard library.
+
+To run the scraper:
+
+Copy code
+
+python imdb_scraper.py
+This will generate the IMDB_Movie_Ratings.xlsx file in the same folder containing the extracted data.
+
+Expanding the Scraper
+There are a few obvious ways this can be expanded:
+
+Scrape more attributes like genre, description, etc
+Get data on TV shows in addition to movies
+Generalize scraper to accept different IMDb URLs
+Containerize scraper as a Docker image
+Set up scheduled runs to collect daily/weekly data
